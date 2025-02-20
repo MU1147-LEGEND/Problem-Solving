@@ -25,9 +25,26 @@ function countingSort(arr) {
     return sortedArray;
 }
 
+// hackerrank solution
+function counting(arr) {
+    let maxNum = 0;
+    for (const element of arr) {
+        if (element > maxNum) {
+            maxNum = element;
+        }
+    }
+    let countArray = new Array(maxNum + 1).fill(0);
 
+    for (let i = 0; i < arr.length; i++) {
+        countArray[arr[i]]++;
+    }
+
+    return countArray;
+}
 
 // initialising the array.
 let arr = [3, 2, 1, 4, 2, 1, 1];
-// invoking the function.
-console.log(countingSort(arr));
+// invoking the functions.
+
+// console.log(countingSort(arr));
+console.log(counting(arr));
