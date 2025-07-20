@@ -30,7 +30,7 @@ function reducer(arr) {
 
 console.log(countSymmetricIntegers(1, 100));
 
-// leet code info:
+// leetcode solution:
 const solutionLink =
     "https://leetcode.com/problems/count-symmetric-integers/solutions/6978755/count-symmetric-integers-in-a-range-by-c-5qff/";
 // time complexity O(n)
