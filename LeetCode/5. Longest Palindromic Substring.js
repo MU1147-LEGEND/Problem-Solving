@@ -49,6 +49,7 @@ console.log(longestPalindrome("cbbd")); //bb
 //  babab -> babab
 
 // leetcode solution:
-const solutionLink = undefined;
+const solutionLink =
+    "https://leetcode.com/problems/longest-palindromic-substring/solutions/6987188/expand-around-center-to-find-longest-pal-g9wi/";
 // time complexity O(n^2)
 // space complexity O(1)
