@@ -46,3 +46,10 @@ var plusOne = function (digits) {
 };
 
 console.log(plusOne([9, 9, 9]));
+
+
+// leetcode solution:
+const solutionLink =
+    "https://leetcode.com/problems/plus-one/solutions/7012225/simulate-addition-with-carry-from-least-cgafd";
+// time complexity O(n)
+// space complexity O(1)
