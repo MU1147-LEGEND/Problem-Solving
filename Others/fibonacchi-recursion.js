@@ -10,19 +10,19 @@
 // }
 
 // using loop
-// function fibo(n) {
-//     // if (n <= 1) {
-//     //     return n;
-//     // }
-//     let prev = 0;
-//     let curr = 1;
-//     let next;
-//     for (i = 1; i < n; i++) {
-//         next = prev + curr; // 0+1
-//         prev = curr; // 1
-//         curr = next; //1
-//     }
-//     return next;
-// }
+function fibo(n) {
+    if (n <= 1) {
+        return n;
+    }
+    let prev = BigInt(0);
+    let curr = BigInt(1);
+    let next = BigInt(0);
+    for (i = 1; i < n; i++) {
+        next = prev + curr; // 0+1
+        prev = curr; // 1
+        curr = next; //1
+    }
+    return next;
+}
 
-console.log(fibo(45));
+console.log(fibo(10000));
